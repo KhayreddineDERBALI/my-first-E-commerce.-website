@@ -1,0 +1,98 @@
+body {
+    background: #000;
+    font-family: Arial, sans-serif;
+}
+
+.form {
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px 25px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+h1.login-title {
+    color: #e50914;
+    margin: 0 auto 25px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.login-input {
+    font-size: 16px;
+    border: 1px solid #e50914;
+    padding: 12px;
+    margin-bottom: 25px;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    outline: none;
+}
+
+.login-input:focus {
+    border-color: #e50914;
+}
+
+.login-button {
+    color: #fff;
+    background: #e50914;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.link {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.link a {
+    color: #fff;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #e50914;
+}
+#formreg {
+    width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fade-in 0.5s ease-in-out;
+    
+    /* Added centering styles */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#formreg p {
+    color: #e50914;
+    font-size:larger;
+}
+#formreg h3 {
+    color: #e50914;
+    font-size: x-large;
+}
+#formreg a {
+    color: #e50914;
+    font-size: large;
+}
